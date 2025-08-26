@@ -5,7 +5,7 @@ on:
 
 jobs:
   say-hello:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-nightly
     steps:
       - name: Say Hello
         run: echo "Hello World 👋"
